@@ -1,0 +1,172 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Hardik Uppal
+    tagline: Data Scientist
+    avatar: hardik_img.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hardikuppal.hu@gmail.com
+    phone: +1 (613)-209-1157; +91 (826)-445-4399
+    website: # blog.webjeda.com #do not add http://
+    linkedin: hardikuppal
+    github: hardik-uppal
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: #'@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+      - idiom: Punjabi
+        level: Native
+
+    interests:
+      - item: Badminton
+        link:
+
+      - item: Basketball
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: DATA SCIENTIST
+    summary: |
+      Analytical thinker with an inquisitive mind and the appropriate skillset to draw hidden insights from data. 
+      Experienced deep learning researcher with focus on computer vision problems along with 3 years of industry experience 
+      in business intelligence developer role with clients from pharmacy retail and auto manufacturing domains.
+education:
+    - degree: MASTER’S OF APPLIED SCIENCE
+      university: QUEEN'S UNIVERSITY, KINGSTON, CANADA
+      time: SEPT 2018 - APR 2021
+      details: |
+        Specializing in deep learning and computer vision (CV), my research interests focused on facial analysis using RGB and Depth images. 
+        I specifically worked on improving recognitions accuracy of facial recognitions (FR) systems by using novel techniques like multi-modal attention 
+        in deep neural network and techniques inspired from transformers. I also focused on distilling RGB and depth relationship information into a network,
+        so as to hallucinate depth information inherently, to reduce the dependency of depth sensors in runtime conditions. My coursework included Computational data analysis, wearables and IoT, cluster computing, 
+        natural language processing (NLP) using deep learning, analytics & AI for business.
+          - GPA: 4.0
+          - Thesis: Attention and Depth Hallucination for RGB-D Face Recognition with Deep Learning
+    - degree: BACHECLOR OF TECHNOLOGY
+      university: GURU NANAK DEV UNIVERSITY, AMRITSAR, INDIA
+      time: 2007 - 2011
+      details: |
+        • Specializing in Electronics and Communication technologies, my studies focused on embedded systems design, digital signal processing, 
+        microcontrollers and microprocessors. Along with core eletronics technologies, it also focused on fundamentals of programming, data structures, computer architecture, neural network and fuzzy logic
+          - GPA 8.28
+experiences:
+    - role: RESEARCH ASSISTANT 
+      time: 2018 - Present
+      company: AIIM-LAB, QUEEN'S UNIVERSITY
+      details: |
+        • Worked as a research assistant at Ambient Intelligence & Interactive Machines Laboratory (AIIM) for various projects 
+        in facial analysis domain. The work entailed reading and analyzing recently published research and staying updated with state-of-the-art on 
+        benchmarks in face recognition and detection, emotion recognition and further derivatives. I also implemented current state-of-the-art method 
+        and analyzed the failings and advantages of those methods. I authored two publications in ICPR 2020 and IEEE TIFS 2021, and one publication 
+        is under review. While working as researcher I was required to be adept in following languages and libraries:
+          - Python (with); Tensorflow; Keras; SKLearn; numpy; pandas; matplotlib; seaborn
+          - R; Matlab; Octave
+          - Latex; Overleaf
+          - Python (with); Flask; HTML; CSS
+    - role: BUSINESS INTELLIGENCE DEVELOPER
+      time: 2015 - 2018
+      company: TATA CONSULTANCY SERVICES, INDIA
+      details: |
+        Worked as a business intelligence (BI) developer for 3 year for biggest I.T. service provider in India. My work majorly included 
+        managing and enhancing data warehouses and providing support from extract, transform load (ETL) operations to front-end reporting.
+        I also helped created data schemas and frameworks for tools for efficient querying from data sources.
+        During this time I have worked across various BI tools and services as listed below
+          - SQL; IBM DB2; MySQL; SQL server
+          - COGNOS; Tableau; SAP Business Objects
+          - IBM Datastage; Composite; Informatica
+
+projects:
+    title: Projects
+    intro: >
+      Below is the list of of the projects listed on github.
+    assignments:
+      - title: Domain Translation Networks
+        link: "#hook"
+        tagline: "Translation networks using GANs to converts images from one domain to another."
+
+      - title: CNN fusion networks
+        link: "#"
+        tagline: "Several CNN networks implementation using Keras and Tensorflow"
+
+      - title: CYBERSHIELD
+        link: "#"
+        tagline: "A responsive web application to enable parents and guardians to keep a check on bullying and harassment of the children on social media platforms"
+
+      - title: SENTIMENT ANALYSIS FROM IMDB COMMENTS
+        link: "#"
+        tagline: "An algorithm to detect sentiments of natural language sentences from IMDb comments and predict the rating given by the user"
+
+      - title: Music Genre recognition
+        link: "#"
+        tagline: "A music genre recognition model on GTZAN dataset"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: TWO-LEVEL ATTENTION-BASED FUSION LEARNING FOR RGB-D FACE RECOGNITION
+        link: "#"
+        authors: Hardik Uppal, Alireza Sepas-Moghaddam, Michael Greenspan, and Ali Etemad
+        conference: 25th INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION, 2020
+
+      - title: DEPTH AS ATTENTION FOR FACE REPRESENTATION LEARNING
+        link: "#"
+        authors: Hardik Uppal, Alireza Sepas-Moghaddam, Michael Greenspan, and Ali Etemad
+        conference: IEEE TRANSACTIONS OF INFORMATION AND FORENSIC SECURITY, vol. 16, pp. 2461-2476, 2021
+
+      - title: TEACHER-STUDENT ADVERSARIAL DEPTH HALLUCINATION FOR IMPROVING FACE RECOGNITION 
+        link: "#"
+        authors: Hardik Uppal, Alireza Sepas-Moghaddam, Michael Greenspan, and Ali Etemad
+        conference: UNDER REVIEW
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 95%
+
+      - name: Tensorflow & Keras
+        level: 95%
+
+      - name: SQL
+        level: 95%
+
+      - name: COGNOS; Tableau
+        level: 90%
+
+      - name: Flask/Django
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
