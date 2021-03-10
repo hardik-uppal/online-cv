@@ -54,7 +54,7 @@ career-profile:
 education:
     - degree: MASTER’S OF APPLIED SCIENCE
       university: QUEEN'S UNIVERSITY, KINGSTON, CANADA
-      time: SEPT 2018 - APR 2021
+      time: 2018 - 2021
       details: |
         Specializing in deep learning and computer vision (CV), my research interests focused on facial analysis using RGB and Depth images. 
         I specifically worked on improving recognitions accuracy of facial recognitions (FR) systems by using novel techniques like multi-modal attention 
@@ -109,11 +109,11 @@ projects:
         link: "#"
         tagline: "Several CNN networks implementation using Keras and Tensorflow"
 
-      - title: CYBERSHIELD
+      - title: CyberShield
         link: "#"
         tagline: "A responsive web application to enable parents and guardians to keep a check on bullying and harassment of the children on social media platforms"
 
-      - title: SENTIMENT ANALYSIS FROM IMDB COMMENTS
+      - title: Sentiment Analysis From IMDb Comments
         link: "#"
         tagline: "An algorithm to detect sentiments of natural language sentences from IMDb comments and predict the rating given by the user"
 
