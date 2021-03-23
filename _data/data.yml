@@ -106,7 +106,7 @@ projects:
 
       - title: CNN fusion networks
         link: "https://github.com/hardik-uppal/CNN-fusion-networks"
-        tagline: "Several CNN networks implementation using Keras and Tensorflow"
+        tagline: "Multiple classification algorithms to classify images and videos using CNN and sequence models with implementation in Keras."
 
       - title: Sentiment Analysis From IMDb Comments
         link: "https://colab.research.google.com/drive/1jLzIqhHik8E8HJF72xW69gQzr35u1lBD?usp=sharing"
